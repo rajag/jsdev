@@ -1,11 +1,13 @@
 {
-    "name": "javascript-development-environment",
+    "name": "jsdevelopment-environment",
     "version": "1.0.0",
-    "description": "JavaScript development environment Pluralsight course by Cory House",
+    "description": "JavaScript development environment  ",
     "scripts": {
-        "start": "node buildScripts/srcServer.js"
+        "prestart":"node buildScripts/startMessage.js",
+        "start": "node buildScripts/srcServer.js",
+        "poststart": "node buildScripts/endMessage.js"
     },
-    "author": "Cory House",
+    "author": "Raja",
     "license": "MIT",
     "dependencies": {
       "whatwg-fetch": "1.0.0"

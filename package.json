@@ -5,7 +5,7 @@
     "scripts": {
         "prestart":"node buildScripts/startMessage.js",
         "start": "node buildScripts/srcServer.js",
-        "poststart": "node buildScripts/endMessage.js"
+        "security-check": "nsp check"
     },
     "author": "Raja",
     "license": "MIT",

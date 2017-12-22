@@ -11,6 +11,7 @@
     "security-check": "nsp check",
     "test":"mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
     "test:watch":"npm run test -- --watch"
+    
   },
   "author": "Raja",
   "license": "MIT",

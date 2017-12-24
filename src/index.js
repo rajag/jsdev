@@ -14,6 +14,7 @@ getUsers().then(result =>{
        <td>${user.email}</td>
        </tr>`
    });
+   //test comment chnage for hash
    global.document.getElementById('users').innerHTML = usersBody;
    const deleteLinks = global.document.getElementsByClassName('deleteUser');
    Array.from(deleteLinks, link =>{
